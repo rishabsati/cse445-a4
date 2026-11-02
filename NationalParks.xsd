@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="https://rishabsati.github.io/cse445-a4"
+           targetNamespace="https://rishabsati.github.io/cse445-a4"
+           elementFormDefault="qualified">
 
   <!-- Root: NationalParks holds one or more NationalPark -->
   <xs:element name="NationalParks">
