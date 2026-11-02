@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- NationalParksErrors.xml: copy of NationalParks.xml with 5 injected errors -->
 <!-- Error 1: root element is NationalPark instead of NationalParks -->
-<NationalPark>
+<NationalPark xmlns="https://rishabsati.github.io/cse445-a4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://rishabsati.github.io/cse445-a4 https://rishabsati.github.io/cse445-a4/NationalParks.xsd">
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
